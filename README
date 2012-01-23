@@ -1,0 +1,15 @@
+Installation:
+
+  Puzzle: git clone https://psimon@git.puzzle.ch/users/psimon/dotvim ~/.vim
+  Private Mirror: git clone https://ps@git.s-it.ch/users/ps/dotvim ~/.vim 
+
+Create symlinks:
+
+  ln -s ~/.vim/vimrc ~/.vimrc
+  ln -s ~/.vim/gvimrc ~/.gvimrc
+
+Switch to the `~/.vim` directory, and fetch submodules:
+
+  cd ~/.vim
+  git submodule init
+  git submodule update
