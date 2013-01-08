@@ -19,3 +19,6 @@
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby/
+[submodule "bundle/vim-buff-kill"]
+	path = bundle/vim-buff-kill
+	url = git://github.com/vim-scripts/bufkill.vim.git
