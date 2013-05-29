@@ -21,3 +21,8 @@ highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE gui
 
 " indentation
 filetype plugin indent on
+
+" map
+nmap <F1> <nop>
+
+map <F2> orequire 'pry'; binding.pry<ESC>
