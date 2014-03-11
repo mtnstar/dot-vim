@@ -7,9 +7,6 @@
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
-[submodule "bundle/vim-slim"]
-	path = bundle/vim-slim
-	url = https://github.com/bbommarito/vim-slim.git
 [submodule "bundle/vim-endwise"]
 	path = bundle/vim-endwise
 	url = git://github.com/tpope/vim-endwise.git
@@ -22,3 +19,6 @@
 [submodule "bundle/vim-buff-kill"]
 	path = bundle/vim-buff-kill
 	url = git://github.com/vim-scripts/bufkill.vim.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
