@@ -31,6 +31,9 @@
 [submodule "nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
-[submodule "bundle/gitv"]
-	path = bundle/gitv
-	url = https://github.com/gregsexton/gitv.git
+[submodule "bundle/vim-javascript"]
+	path = bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "bundle/grep"]
+	path = bundle/grep
+	url = https://github.com/yegappan/grep.git
