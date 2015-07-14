@@ -26,3 +26,5 @@ filetype plugin indent on
 nmap <F1> <nop>
 
 map <F2> orequire 'pry'; binding.pry<ESC>
+
+nnoremap <silent> <F3> :Rgrep<CR>*
