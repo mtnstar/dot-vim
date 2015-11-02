@@ -28,3 +28,9 @@ nmap <F1> <nop>
 map <F2> orequire 'pry'; binding.pry<ESC>
 
 nnoremap <silent> <F3> :Rgrep<CR>*
+
+" CtrlP
+nnoremap scp :CtrlP<CR>
+nnoremap scl :CtrlP .<CR>
+nnoremap scb :CtrlPBuffer<CR>
+nnoremap scr :CtrlPMRU<CR>
