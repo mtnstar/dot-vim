@@ -1,7 +1,6 @@
 Installation:
 
-  Puzzle: git clone https://psimon@git.puzzle.ch/users/psimon/dotvim ~/.vim
-  Private Mirror: git clone https://ps@git.s-it.ch/users/ps/dotvim ~/.vim 
+  git clone https://github.com/psunix/dot-vim.git ~/.vim
 
 Create symlinks:
 
