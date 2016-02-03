@@ -19,9 +19,6 @@
 [submodule "bundle/vim-buff-kill"]
 	path = bundle/vim-buff-kill
 	url = https://github.com/vim-scripts/bufkill.vim.git
-[submodule "bundle/vim-markdown"]
-	path = bundle/vim-markdown
-	url = https://github.com/plasticboy/vim-markdown.git
 [submodule "bundle/vim-autoformat"]
 	path = bundle/vim-autoformat
 	url = https://github.com/Chiel92/vim-autoformat.git
