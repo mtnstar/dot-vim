@@ -24,13 +24,17 @@ filetype plugin indent on
 
 " map
 nmap <F1> <nop>
-
 map <F2> orequire 'pry'; binding.pry<ESC>
-
 nnoremap <silent> <F3> :Rgrep<CR>*
+nmap <F1> <nop>
+
+nnoremap <F4> <C-]> 
 
 " CtrlP
 nnoremap scp :CtrlP<CR>
 nnoremap scl :CtrlP .<CR>
 nnoremap scb :CtrlPBuffer<CR>
 nnoremap scr :CtrlPMRU<CR>
+
+" ctags
+set tags=./tags
