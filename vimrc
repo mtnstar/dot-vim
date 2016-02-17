@@ -35,7 +35,7 @@ nnoremap scp :CtrlP<CR>
 nnoremap scl :CtrlP .<CR>
 nnoremap scb :CtrlPBuffer<CR>
 nnoremap scr :CtrlPMRU<CR>
-nnoremap sc :CtrlPTag<CR>
+nnoremap sct :CtrlPTag<CR>
 
 " ctags
 set tags=./tags
