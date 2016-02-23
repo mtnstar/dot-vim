@@ -38,7 +38,7 @@ nnoremap scr :CtrlPMRU<CR>
 nnoremap sct :CtrlPTag<CR>
 
 " ctags
-set tags=./tags
+set tags=tags
 nnoremap <F5> :!~/.vim/bin/ctags.sh<CR>
 
 cabbrev E Explore
