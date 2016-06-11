@@ -1,11 +1,10 @@
-" ps vimrc
+source ~/.vim/plugins.vim
 
-colorscheme desert-ps
-
-" pathogen vim plugin
-call pathogen#infect()
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+" UI
+"AirlineTheme papercolor
+set guioptions=i
+colorscheme desert
+set background=dark
 
 " use spaces instead of tabs
 set tabstop=2
@@ -13,11 +12,11 @@ set shiftwidth=2
 set expandtab
 
 " buffer stuff
-set hidden
+" set hidden
 
 " enable line numbers
 set number
-highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
+" highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 
 " indentation
 filetype plugin indent on
@@ -41,4 +40,4 @@ nnoremap sct :CtrlPTag<CR>
 set tags=tags
 nnoremap <F5> :!~/.vim/bin/ctags.sh<CR>
 
-cabbrev E Explore
+" cabbrev E Explore
