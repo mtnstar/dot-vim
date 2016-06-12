@@ -1,7 +1,7 @@
 source ~/.vim/plugins.vim
 
 " UI
-"AirlineTheme papercolor
+AirlineTheme papercolor
 set guioptions=i
 colorscheme desert
 set background=dark
@@ -17,6 +17,18 @@ set expandtab
 " enable line numbers
 set number
 " highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
+
+" syntastic
+let g:tsuquyomi_disable_quickfix = 1
+let g:syntastic_typescript_checkers = ['tsuquyomi']
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 " indentation
 filetype plugin indent on
@@ -40,4 +52,4 @@ nnoremap sct :CtrlPTag<CR>
 set tags=tags
 nnoremap <F5> :!~/.vim/bin/ctags.sh<CR>
 
-" cabbrev E Explore
+cabbrev E Explore
