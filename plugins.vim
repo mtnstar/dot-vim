@@ -11,6 +11,9 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-scripts/bufkill.vim' " provides BD, BW, BUN
   Plug 'tpope/vim-surround'
 
+  " git
+  Plug 'tpope/vim-fugitive'
+
   " UI
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'

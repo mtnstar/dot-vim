@@ -1,7 +1,6 @@
 source ~/.vim/plugins.vim
 
 " UI
-AirlineTheme papercolor
 set guioptions=i
 colorscheme desert
 set background=dark
