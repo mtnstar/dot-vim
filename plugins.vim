@@ -10,6 +10,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'Chiel92/vim-autoformat'
   Plug 'vim-scripts/bufkill.vim' " provides BD, BW, BUN
   Plug 'tpope/vim-surround'
+  Plug 'yegappan/grep'
 
   " git
   Plug 'tpope/vim-fugitive'
