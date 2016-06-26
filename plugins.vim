@@ -19,9 +19,10 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
 
-  " js / ts
+  " js / ts / coffeescript
   Plug 'leafgarland/typescript-vim'
   Plug 'Quramy/tsuquyomi'
+  Plug 'kchmck/vim-coffee-script'
 
   " ruby / rails
   Plug 'tpope/vim-rails'
