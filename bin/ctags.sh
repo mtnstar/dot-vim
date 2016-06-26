@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ctags -R --exclude=.git --exclude=log ./ `bundle show rails`/../*
+ctags -R --exclude=.git --exclude=log --exclude=frontend --exclude=public ./ `bundle show rails`/../*
