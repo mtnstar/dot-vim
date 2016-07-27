@@ -55,7 +55,7 @@ nnoremap ts :TsuSearch<CR>
 nnoremap tr :TsuRenameSymbol<CR>
 
 " ctags
-set tags=./tags
 nnoremap <F5> :!~/.vim/bin/ctags.sh<CR>
+set tags=./tags;/
 
 cabbrev E Explore
