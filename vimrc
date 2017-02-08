@@ -18,8 +18,6 @@ set number
 " highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 
 " syntastic
-let g:tsuquyomi_disable_quickfix = 1
-let g:syntastic_typescript_checkers = ['tsuquyomi']
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
@@ -49,6 +47,9 @@ nnoremap scr :CtrlPMRU<CR>
 nnoremap sct :CtrlPTag<CR>
 
 " tsuquyomi
+let g:tsuquyomi_disable_quickfix = 1
+let g:syntastic_typescript_checkers = ['tsuquyomi']
+let g:tsuquyomi_single_quote_import = 1
 nnoremap td :TsuDefinition<CR>
 nnoremap ti :TsuImport<CR>
 nnoremap ts :TsuSearch<CR>
