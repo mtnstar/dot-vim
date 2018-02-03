@@ -33,7 +33,7 @@ filetype plugin indent on
 " map
 let mapleader=","
 nmap <F1> <nop>
-map <F2> orequire 'pry'; binding.pry<ESC>
+map <F2> orequire 'pry'; binding.pry unless $pstop<ESC>
 nnoremap <silent> <F3> :Rgrep<CR>*
 nmap <F1> <nop>
 
@@ -60,3 +60,5 @@ nnoremap <F5> :!~/.vim/bin/ctags.sh<CR>
 set tags=./tags;/
 
 cabbrev E Explore
+
+let g:closetag_filenames = "*.html"

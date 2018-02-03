@@ -11,6 +11,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-scripts/bufkill.vim' " provides BD, BW, BUN
   Plug 'tpope/vim-surround'
   Plug 'yegappan/grep'
+  Plug 'alvan/vim-closetag'
 
   " git
   Plug 'tpope/vim-fugitive'
@@ -28,6 +29,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-rails'
   Plug 'tpope/vim-endwise' " adds end to if, do, def ...
   Plug 'vim-ruby/vim-ruby'
+  Plug 'tpope/vim-bundler'
+  Plug 'ngmy/vim-rubocop'
 
 
 call plug#end()
