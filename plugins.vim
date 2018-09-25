@@ -24,6 +24,9 @@ call plug#begin('~/.vim/plugged')
   Plug 'leafgarland/typescript-vim'
   Plug 'Quramy/tsuquyomi'
   Plug 'kchmck/vim-coffee-script'
+  Plug 'prettier/vim-prettier', {
+    \ 'do': 'npm install',
+    \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss'] }
 
   " ruby / rails
   Plug 'tpope/vim-rails'
