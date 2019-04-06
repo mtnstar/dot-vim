@@ -62,3 +62,7 @@ set tags=./tags;/
 cabbrev E Explore
 
 let g:closetag_filenames = "*.html"
+
+" prettier
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.vue PrettierAsync
