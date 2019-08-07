@@ -2,7 +2,7 @@ source ~/.vim/plugins.vim
 
 " UI
 set guioptions=i
-colorscheme desert
+colorscheme darkblue
 set background=dark
 
 " use spaces instead of tabs
@@ -21,11 +21,13 @@ set number
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:tsuquyomi_disable_quickfix = 1
+let g:syntastic_typescript_checkers = ['tsuquyomi']
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_ruby_checkers = ['rubocop']
 
 " indentation
 filetype plugin indent on
