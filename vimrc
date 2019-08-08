@@ -2,7 +2,7 @@ source ~/.vim/plugins.vim
 
 " UI
 set guioptions=i
-colorscheme darkblue
+colorscheme pablo
 set background=dark
 
 " use spaces instead of tabs
@@ -28,6 +28,7 @@ let g:syntastic_typescript_checkers = ['tsuquyomi']
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_ruby_checkers = ['rubocop']
+let g:syntastic_ruby_rubocop_quiet_messages = { "file": ['_spec.rb$'] }
 
 " indentation
 filetype plugin indent on
