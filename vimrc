@@ -10,6 +10,11 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+" directories
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+set undodir=~/.vim/undo//
+
 " buffer stuff
 " set hidden
 
@@ -23,12 +28,11 @@ set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-let g:tsuquyomi_disable_quickfix = 1
 let g:syntastic_typescript_checkers = ['tsuquyomi']
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_ruby_checkers = ['rubocop']
-let g:syntastic_ruby_rubocop_quiet_messages = { "file": ['_spec.rb$'] }
+let g:syntastic_ruby_rubocop_quiet_messages = { "file": ['_test.rb$'] }
 
 " indentation
 filetype plugin indent on
@@ -53,6 +57,7 @@ nnoremap sct :CtrlPTag<CR>
 let g:tsuquyomi_disable_quickfix = 1
 let g:syntastic_typescript_checkers = ['tsuquyomi']
 let g:tsuquyomi_single_quote_import = 1
+let g:tsuquyomi_shortest_import_path = 1
 nnoremap td :TsuDefinition<CR>
 nnoremap ti :TsuImport<CR>
 nnoremap ts :TsuSearch<CR>
@@ -69,3 +74,6 @@ let g:closetag_filenames = "*.html"
 " prettier
 let g:prettier#autoformat = 0
 autocmd BufWritePre *.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.vue PrettierAsync
+
+" mustache / hbs
+let g:mustache_abbreviations = 1

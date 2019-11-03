@@ -14,7 +14,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'alvan/vim-closetag'
 
   " git
-  Plug 'tpope/vim-fugitive'
+  Plug 'cohama/agit.vim'
 
   " UI
   Plug 'vim-airline/vim-airline'
@@ -26,7 +26,10 @@ call plug#begin('~/.vim/plugged')
   Plug 'kchmck/vim-coffee-script'
   Plug 'prettier/vim-prettier', {
     \ 'do': 'npm install',
-    \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss'] }
+    \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'html'] }
+  Plug 'AndrewRadev/ember_tools.vim'
+  Plug 'tpope/vim-projectionist'
+  Plug 'mustache/vim-mustache-handlebars'
 
   " ruby / rails
   Plug 'tpope/vim-rails'
