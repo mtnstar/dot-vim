@@ -77,3 +77,7 @@ autocmd BufWritePre *.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,
 
 " mustache / hbs
 let g:mustache_abbreviations = 1
+
+" nerdcommenter
+let g:NERDSpaceDelims = 1
+let g:NERDTrimTrailingWhitespace = 1
