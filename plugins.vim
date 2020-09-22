@@ -38,5 +38,10 @@ call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-bundler'
   Plug 'ngmy/vim-rubocop'
 
+  " go
+  Plug 'fatih/vim-go'
+
+  " yaml
+  Plug 'lmeijvogel/vim-yaml-helper'
 
 call plug#end()
