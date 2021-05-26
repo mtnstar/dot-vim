@@ -2,8 +2,9 @@ source ~/.vim/plugins.vim
 
 " UI
 set guioptions=i
-colorscheme pablo
+colorscheme solarized
 set background=dark
+hi Normal ctermbg=NONE
 
 " use spaces instead of tabs
 set tabstop=2

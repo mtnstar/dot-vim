@@ -2,6 +2,9 @@ call plug#begin('~/.vim/plugged')
   " general
   Plug 'ctrlpvim/ctrlp.vim'
 
+  " theme
+  Plug 'altercation/vim-colors-solarized'
+
   " code general
   Plug 'Chiel92/vim-autoformat'
   Plug 'Shougo/vimproc.vim'
