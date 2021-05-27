@@ -6,6 +6,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'altercation/vim-colors-solarized'
 
   " code general
+  Plug 'preservim/nerdtree'
   Plug 'Chiel92/vim-autoformat'
   Plug 'Shougo/vimproc.vim'
   Plug 'scrooloose/nerdcommenter'
