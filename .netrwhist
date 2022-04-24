@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/mtnstar/git/cryptopus/frontend'
+let g:netrw_dirhist_0='/home/mtnstar/git/setup/dp/ansible/roles/js-dev/tasks'
+let g:netrw_dirhist_9='/home/mtnstar/git/setup/dp/ansible/roles/js-dev'
+let g:netrw_dirhist_8='/home/mtnstar/git/setup/dp/ansible/roles'
+let g:netrw_dirhist_7='/home/mtnstar/git/setup/dp/ansible'
+let g:netrw_dirhist_6='/home/mtnstar/git/setup/dp'
+let g:netrw_dirhist_5='/home/mtnstar/git/setup/dp/.git'
+let g:netrw_dirhist_4='/home/mtnstar/git/setup/dp'
+let g:netrw_dirhist_3='/home/mtnstar/git/mtnstar/dp/ansible/roles/vim/tasks'
+let g:netrw_dirhist_2='/home/mtnstar/git/mtnstar/dp/ansible/roles/vim'

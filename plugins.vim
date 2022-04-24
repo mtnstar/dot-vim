@@ -27,9 +27,6 @@ call plug#begin('~/.vim/plugged')
   " js / ts
   Plug 'leafgarland/typescript-vim'
   Plug 'Quramy/tsuquyomi'
-  Plug 'prettier/vim-prettier', {
-    \ 'do': 'npm install',
-    \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'html'] }
   Plug 'AndrewRadev/ember_tools.vim'
   Plug 'tpope/vim-projectionist'
   Plug 'sheerun/vim-polyglot'
