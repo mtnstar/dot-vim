@@ -24,16 +24,16 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
 
-  " js / ts / coffeescript
+  " js / ts
   Plug 'leafgarland/typescript-vim'
   Plug 'Quramy/tsuquyomi'
-  Plug 'kchmck/vim-coffee-script'
   Plug 'prettier/vim-prettier', {
     \ 'do': 'npm install',
     \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'html'] }
   Plug 'AndrewRadev/ember_tools.vim'
   Plug 'tpope/vim-projectionist'
-  Plug 'mustache/vim-mustache-handlebars'
+  Plug 'sheerun/vim-polyglot'
+  Plug 'dense-analysis/ale'
 
   " ruby / rails
   Plug 'tpope/vim-rails'
