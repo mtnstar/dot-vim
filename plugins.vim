@@ -31,6 +31,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-projectionist'
   Plug 'sheerun/vim-polyglot'
   Plug 'dense-analysis/ale'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
   " ruby / rails
   Plug 'tpope/vim-rails'

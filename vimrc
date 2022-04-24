@@ -88,3 +88,6 @@ nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
+
+" coc
+let g:coc_global_extensions = ['coc-json', 'coc-css', 'coc-eslint', 'coc-angular', 'coc-docker', 'coc-ember', 'coc-git', 'coc-html', 'coc-sh']
