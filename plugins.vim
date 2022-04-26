@@ -27,7 +27,6 @@ call plug#begin('~/.vim/plugged')
   " js / ts
   Plug 'leafgarland/typescript-vim'
   Plug 'Quramy/tsuquyomi'
-  Plug 'AndrewRadev/ember_tools.vim'
   Plug 'tpope/vim-projectionist'
   Plug 'sheerun/vim-polyglot'
   Plug 'dense-analysis/ale'
