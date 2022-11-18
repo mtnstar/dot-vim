@@ -25,8 +25,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-airline/vim-airline-themes'
 
   " js / ts
-  Plug 'leafgarland/typescript-vim'
-  Plug 'Quramy/tsuquyomi'
+  " Plug 'Quramy/tsuquyomi'
   Plug 'tpope/vim-projectionist'
   Plug 'sheerun/vim-polyglot'
   Plug 'dense-analysis/ale'

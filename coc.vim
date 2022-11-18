@@ -1,5 +1,5 @@
 " coc
-let g:coc_global_extensions = ['coc-json', 'coc-css', 'coc-eslint', 'coc-angular', 'coc-docker', 'coc-ember', 'coc-git', 'coc-html', 'coc-sh']
+let g:coc_global_extensions = ['coc-json', 'coc-css', 'coc-eslint', 'coc-angular', 'coc-docker', 'coc-ember', 'coc-git', 'coc-html', 'coc-sh', 'coc-prettier']
 " set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
