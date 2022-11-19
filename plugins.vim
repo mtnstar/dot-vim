@@ -3,6 +3,7 @@ call plug#begin()
 " general
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-surround'
+Plug 'scrooloose/nerdcommenter'
 
 " theme
 Plug 'altercation/vim-colors-solarized'
