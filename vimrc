@@ -21,6 +21,7 @@ let g:coc_global_extensions = [ 'coc-tsserver', 'coc-prettier' ]
 let g:coc_disable_startup_warning = 1
 
 " map
+let mapleader=","
 nmap <F1> <nop>
 map <F2> orequire 'pry'; binding.pry unless $pstop<ESC>
 nnoremap <silent> <F3> :Rgrep<CR>*
