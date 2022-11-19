@@ -24,6 +24,11 @@ let g:coc_disable_startup_warning = 1
 nmap <F1> <nop>
 map <F2> orequire 'pry'; binding.pry unless $pstop<ESC>
 nnoremap <silent> <F3> :Rgrep<CR>*
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+nmap gI :CocCommand tsserver.organizeImports<cr>
 
 " CtrlP
 nnoremap scl :CtrlP .<CR>
