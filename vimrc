@@ -17,7 +17,7 @@ set directory=~/.vim/swap/
 set undodir=~/.vim/undo/
 
 " Coc
-let g:coc_global_extensions = [ 'coc-tsserver', 'coc-prettier' ]
+let g:coc_global_extensions = [ 'coc-tsserver', 'coc-prettier', 'coc-tslint-plugin']
 let g:coc_disable_startup_warning = 1
 
 " map
@@ -37,3 +37,10 @@ nnoremap scr :CtrlPMRU<CR>
 
 " Commands
 command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
+
+" show quickfix window for vimgrep
+augroup myvimrc
+    autocmd!
+    autocmd QuickFixCmdPost [^l]* cwindow
+    autocmd QuickFixCmdPost l*    lwindow
+augroup END
