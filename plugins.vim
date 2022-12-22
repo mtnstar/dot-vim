@@ -21,5 +21,8 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-bundler'
 Plug 'ngmy/vim-rubocop'
 
+" yaml
+Plug 'lmeijvogel/vim-yaml-helper'
+
 " All of your Plugins must be added before the following line
 call plug#end()              " required
