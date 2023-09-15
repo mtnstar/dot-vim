@@ -8,6 +8,7 @@ Plug 'scrooloose/nerdcommenter'
 " theme
 Plug 'altercation/vim-colors-solarized'
 
+" js/frontend
 Plug 'pangloss/vim-javascript'    " JavaScript support
 Plug 'leafgarland/typescript-vim' " TypeScript syntax
 Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
@@ -20,6 +21,9 @@ Plug 'tpope/vim-endwise' " adds end to if, do, def ...
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-bundler'
 Plug 'ngmy/vim-rubocop'
+
+" git
+Plug 'tpope/vim-fugitive'
 
 " yaml
 Plug 'lmeijvogel/vim-yaml-helper'
