@@ -17,7 +17,7 @@ set directory=~/.vim/swap/
 set undodir=~/.vim/undo/
 
 " Coc
-let g:coc_global_extensions = [ 'coc-tsserver', 'coc-prettier', 'coc-tslint-plugin']
+let g:coc_global_extensions = [ 'coc-tsserver', 'coc-prettier', 'coc-tslint-plugin', 'coc-solargraph']
 let g:coc_disable_startup_warning = 1
 
 " map
