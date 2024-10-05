@@ -2,8 +2,7 @@ source ~/.vim/plugins.vim
 
 " UI
 colorscheme solarized
-set background=dark
-hi Normal ctermbg=NONE guibg=NONE
+hi Normal guibg=NONE
 set number
 
 " use spaces instead of tabs

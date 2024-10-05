@@ -13,7 +13,7 @@ Plug 'pangloss/vim-javascript'    " JavaScript support
 Plug 'leafgarland/typescript-vim' " TypeScript syntax
 Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
 
-Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
+Plug 'neoclide/coc.nvim'
 
 " ruby / rails
 Plug 'tpope/vim-rails'
@@ -24,6 +24,7 @@ Plug 'ngmy/vim-rubocop'
 
 " git
 Plug 'tpope/vim-fugitive'
+Plug 'github/copilot.vim'
 
 " yaml
 Plug 'lmeijvogel/vim-yaml-helper'
